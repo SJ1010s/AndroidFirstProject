@@ -1,4 +1,22 @@
 <resources>
-      <string name="app_name">Debug</string>
-      <string name="is_equal">Равно?</string>
+     
+    <string name="app_name">Debug</string>
+     
+    <string name="is_equal">Равно?</string>
+    <string name="poem" formatted="false" text="content">
+        <![CDATA[
+        В чужбине свято наблюдаю\n
+        Родной обычай старины:\n
+        На волю птичку выпускаю\n
+        При светлом празднике весны.\n\n\n
+        Я стал доступен утешенью;\n
+        За что на бога мне роптать,\n
+        Когда хоть одному творенью\n
+        Я мог свободу даровать!\n
+        ]]>
+    </string>
+    <string name="main">Переход в главное меню</string>
+    <string name="MainFromActivity">Главное меню</string>
+    <string name="Button_3">Переход в меню 3</string>
+    <string name="button_2">Переход в меню 2</string>
 </resources>
