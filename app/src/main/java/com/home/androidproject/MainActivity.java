@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void sendActivity2 (View view){
-        Intent intent = new Intent(this, Activity2.class);
+        Intent intent = new Intent(this, ActivitySecond.class);
         startActivity(intent);
     }
     public void sendActivity3 (View view){
-        Intent intent = new Intent(this, Activity3.class);
+        Intent intent = new Intent(this, ActivityThree.class);
         startActivity(intent);
     }
 

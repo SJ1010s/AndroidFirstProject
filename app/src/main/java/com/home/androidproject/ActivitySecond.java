@@ -8,12 +8,12 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.TextView;
 
-public class Activity2 extends AppCompatActivity {
+public class ActivitySecond extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_2);
+        setContentView(R.layout.activity_second);
         TextView textView = findViewById(R.id.textViewScroll);
         textView.setMovementMethod(new ScrollingMovementMethod());
     }
